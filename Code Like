@@ -1,8 +1,3 @@
-<center><button class="button1" id="button1" onclick="scrollToButton2()">CLICK VÀO ĐÂY</button></center>
-
-************
-
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9768615911852586"
      crossorigin="anonymous"></script>
 <!-- CBR250RR -->
@@ -16,7 +11,7 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-<center><button class="button2" id="button2" onclick="openLink1()">LIKE VIDEO ĐỂ TIẾP TỤC</button></center>
+<center><button class="button2" id="button2" onclick="openLink1()">LIKE VIDEO ĐỂ MỞ KHOÁ LINK TẢI</button></center>
 
 <script>button1.addEventListener('click',function(){button2.scrollIntoView({behavior:"smooth"})});function openLink1(){var button2=document.getElementById("button2");button2.innerHTML="VUI LÒNG CHỜ";window.open("https://www.youtube.com/watch?v=Z-8DaLJ6v2Q");startCountdown()}
 function startCountdown(){var button2=document.getElementById("button2");var seconds=5;button2.innerHTML="checking... "+seconds+"s";button2.disabled=!0;var interval=setInterval(function(){seconds--;button2.innerHTML="checking... "+seconds+"s";if(seconds==0){clearInterval(interval);button2.innerHTML="Click Here To Continue";button2.style.backgroundColor="#4CAF50";button2.disabled=!1;button2.onclick=openLink2}},1000)}
